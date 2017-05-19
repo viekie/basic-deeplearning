@@ -13,6 +13,9 @@ class Node(object):
         self.output = 0.0
         self.delta = 0.0
 
+    def set_output(self, output):
+        self.output = output
+
     def append_upstream_connections(self, conn):
         '''
         插入上游指向当前node的connection
