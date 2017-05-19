@@ -20,6 +20,9 @@ class Connection(object):
         '''
         self.gradient = self.downstream_node.delta * self.upstream_node.output
 
+    def get_gradient(self):
+        return self.gradient
+
     def update_weight(self, rate):
         self.calc_gradient()
         self.weight += rate * self.gradient
