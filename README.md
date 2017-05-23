@@ -10,4 +10,6 @@ Layer:神经网络的某一层，包含若干节点。</br>
 Connections:所有的Connection的集合。</br>
 Connection:链接各个Node。</br>
 Node:神经网络中的各节点。</br>
-excerise:里面包含以Yann的手写识别数据库中的数字识别为样本，进行测试
+excerise:里面包含以Yann的手写识别数据库中的数字识别为样本，进行测试。
+## Chapter 04 Vector Programming
+本算法根据向量化编程的思路，对上一节的全连接神经网络进行重写。本节代码中使用了numpy等类库。
