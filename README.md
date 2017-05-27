@@ -13,3 +13,6 @@ Node:神经网络中的各节点。</br>
 excerise:里面包含以Yann的手写识别数据库中的数字识别为样本，进行测试。
 ## Chapter 04 Vector Programming
 本算法根据向量化编程的思路，对上一节的全连接神经网络进行重写。本节代码中使用了numpy等类库。
+## Chapter 05 Convolutional Neural Network
+本章介绍了卷积神经网络，通常卷积神经网络会和全连接神经网络混合使用，前面若干层分别是不同尺寸，不同功能的卷积核，进行卷积计算，然后伴随若干个全连接神经网络，进行softmax分类。</br>
+此处的BP算法，根据输出值，按照全连接网络里面的反向传播算法，进行梯度下降。到达卷积层时，按照本章的pooling和convolutionalLayer里面定义的方法进行反向传播。以全连接层计算出的损失作为卷基层的input_array,进行后续计算。具体推到，参照image文件夹下的图片。
