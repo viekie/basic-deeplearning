@@ -6,6 +6,9 @@ import numpy as np
 
 class Filter(object):
     def __init__(self, width, height, depth):
+        '''
+        构造初始化
+        '''
         self.width = width
         self.height = height
         self.depth = depth
