@@ -21,8 +21,7 @@ excerise:里面包含以Yann的手写识别数据库中的数字识别为样本�
 ## Chapter 07 LSTM
 本章介绍了LSTM算法，通过增加遗忘门，输出门和输出门进行优化循环神经网络，以避免梯度消失或者梯度爆炸问题。具体数学证明见Image下。</br>
 ## Chapter 08 Recursive Neural Network
-本章介绍了递归神经网络，递归神经网络在一定程度上解决了语法树的问题。公式推到见Image文件夹.a
----
+本章介绍了递归神经网络，递归神经网络在一定程度上解决了语法树的问题。公式推到见Image文件夹。
 
 ## Reference
 https://www.zybuluo.com/hanbingtao/note/433855
