@@ -20,3 +20,19 @@ excerise:里面包含以Yann的手写识别数据库中的数字识别为样本�
 本章介绍了循环神经网络，每一个层共享一组Ｗ和Ｕ权值。假设当前层处于第t时刻的第l层，想要前向计算O(t,l+1)输出，则计算等于W*O(t-1, l+1) + U*O(t, l)。在同一层，共享一组Ｗ和Ｕ权重。具体推到公式，参见image文件见下的图片</br>
 ## Chapter 07 LSTM
 本章介绍了LSTM算法，通过增加遗忘门，输出门和输出门进行优化循环神经网络，以避免梯度消失或者梯度爆炸问题。具体数学证明见Image下。</br>
+## Chapter 08 Recursive Neural Network
+本章介绍了递归神经网络，递归神经网络在一定程度上解决了语法树的问题。公式推到见Image文件夹.a
+---
+
+##Reference
+https://www.zybuluo.com/hanbingtao/note/433855
+https://www.zybuluo.com/hanbingtao/note/448086
+https://www.zybuluo.com/hanbingtao/note/476663
+https://www.zybuluo.com/hanbingtao/note/485480
+https://www.zybuluo.com/hanbingtao/note/541458
+https://www.zybuluo.com/hanbingtao/note/581764
+https://www.zybuluo.com/hanbingtao/note/626300
+
+##Concat and Email
+email: viekiedu@gmail.com
+id: viekie
