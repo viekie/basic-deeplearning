@@ -24,7 +24,7 @@ excerise:里面包含以Yann的手写识别数据库中的数字识别为样本�
 本章介绍了递归神经网络，递归神经网络在一定程度上解决了语法树的问题。公式推到见Image文件夹.a
 ---
 
-##Reference
+## Reference
 https://www.zybuluo.com/hanbingtao/note/433855
 https://www.zybuluo.com/hanbingtao/note/448086
 https://www.zybuluo.com/hanbingtao/note/476663
@@ -33,6 +33,6 @@ https://www.zybuluo.com/hanbingtao/note/541458
 https://www.zybuluo.com/hanbingtao/note/581764
 https://www.zybuluo.com/hanbingtao/note/626300
 
-##Concat and Email
+## Concat and Email
 email: viekiedu@gmail.com
 id: viekie
